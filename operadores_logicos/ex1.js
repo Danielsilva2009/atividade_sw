@@ -4,13 +4,15 @@
 
 
 
-let usuario = 'admin'
+export function logicos_ex1() {
+  let usuario = 'admin'
 let senha = '1234'
 
 if(usuario == 'admin' & senha == '1234'){
-  console.log('sucesso')
+ return 'sucesso'
 }
 else {
-  console.log("erro")
+ return 'erro'
 }
 
+}

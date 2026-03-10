@@ -2,8 +2,10 @@
 
 
 
-let nomes = ["daniel","andré","nicolas","leonardo"]
+export function laco_ex4() {
+    let nomes = ["daniel","andré","nicolas","leonardo"]
 
 nomes.forEach( i => {
-    console.log(`olá seu nome é ${i}`)
+    return i
 });
+}

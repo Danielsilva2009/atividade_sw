@@ -5,10 +5,12 @@
 // e depois crie uma variável chamada total que represente a multiplicação do produto pela quantidade. 
 // Mostre o valor total da compra.
 
-let produto = 6
+export function variaveis_ex1() {
+    let produto = 6
 let quantidade = 10
 let total = quantidade * produto
 
-console.log(total)
+return total
+}
 
 

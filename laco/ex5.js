@@ -3,7 +3,8 @@
 
 
 
-let usuarios = [{
+export function laco_ex5() {
+  let usuarios = [{
   
     nome:"daniel",
     idade:17,
@@ -28,4 +29,5 @@ const nomes = usuarios.map(function(usuario) {
     return usuario.nome
 }) 
 
-console.log(nomes)
+ return nomes
+}

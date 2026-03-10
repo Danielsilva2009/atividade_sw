@@ -1,4 +1,5 @@
-let alunos = [{
+export function json_ex1() {
+  let alunos = [{
   
     aluno1:{
       nome:'daniel silva',
@@ -50,4 +51,5 @@ let alunos = [{
   }]
   
   
-  console.log(alunos[0].aluno1)
+  return alunos[0].aluno1
+}

@@ -3,7 +3,9 @@
 
 
 
-for (let a = 0; a <= 10; a++) {
-    console.log(a)
-    
+export function laco_ex1() {
+    for (let a = 0; a <= 10; a++) {
+      return a
+        
+    }
 }
