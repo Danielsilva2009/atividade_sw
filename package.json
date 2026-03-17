@@ -2,9 +2,9 @@
   "name": "atividade_sw",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start":"nodemon ./index.js"
+    "start": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
     "url": "https://github.com/Danielsilva2009/atividade_sw/issues"
   },
   "homepage": "https://github.com/Danielsilva2009/atividade_sw#readme",
-  "description": "",
   "dependencies": {
     "express": "^5.2.1",
     "nodemon": "^3.1.14"
-  }
+  },
+  "description": ""
 }

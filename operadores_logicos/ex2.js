@@ -19,9 +19,9 @@ let funcionario = [{
 if(funcionario[0].tempo_empresa > 2 & funcionario[0].vendas >= 50000 || funcionario[0].status == 'funcionario do mes'){
   return 'voce ganhou o bonus'
 }
-else(
+else {
   return 'você não tem direito ao bônus'
+}
 
-)
 
 }

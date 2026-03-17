@@ -9,7 +9,8 @@
 //Crianças: Normal se ferro > 11.0; Anêmica se menor.
 
 
-
+export function if_4() {
+  
 let pessoa = [{
   
   sexo:"masculino",
@@ -23,9 +24,10 @@ if(pessoa[0].sexo == 'masculino' & pessoa[0].idade >= 18 & pessoa[0].ferro < 13,
   
   
   if (pessoa[0].ferro < 13,5) {
-    console.log("normal")
+    return "normal"
   }
   
   
   
+}
 }

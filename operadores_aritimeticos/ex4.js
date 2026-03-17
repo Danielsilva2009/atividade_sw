@@ -4,7 +4,8 @@
 
 // 4 - calcule a pontenciação de 2¹⁰
 
-let numero = 2**10
+export function ari_4() {
+    let numero = 2**10
+return numero
 
-console.log(numero)
-
+}

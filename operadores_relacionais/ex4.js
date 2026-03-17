@@ -1,13 +1,15 @@
 // 4 - se a idade do usuario for menor de 18 anos entao nao pode acessar o site
 
 
-let idade = 6
+export function rel_4() {
+  let idade = 6
 
 
 if(idade >= 18){
-  console.log('acesso válido')
+  return 'acesso válido'
 
 }
 else{
-    console.log("acesso inválido")
+    return "acesso inválido"
+}
 }

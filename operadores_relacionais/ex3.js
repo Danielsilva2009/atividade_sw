@@ -2,12 +2,14 @@
 
 
 
-let nota = 7
+export function rel_3() {
+    let nota = 7
 
 if(nota > 5){
-console.log("aprovado")
+return "aprovado"
 
 }
 else{
-    console.log('reprovado')
+    return 'reprovado'
+}
 }

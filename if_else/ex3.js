@@ -2,25 +2,29 @@
 
 
 // 3 - Conversor de Turno: Receba uma letra ("M", "V" ou "N") e imprima "Bom Dia!", "Boa Tarde!" ou "Boa Noite!". Exiba "Inválido" para outras entradas. 
+ 
 
+export function if_3() {
+  
 
 let turno = 'n'
 
 
 if (turno == 'm') {
-  console.log("bom dia")
+  return "bom dia"
 }
 
 if (turno == 't') {
-  console.log("boa tarde")
+  return "boa tarde"                 
 }
 
 if (turno == 'n') {
-  console.log("boa noite")
+  return "boa noite"
 }
 else{
-  console.log("inválido")
+  return "inválido"
 }
 
+}
 
 

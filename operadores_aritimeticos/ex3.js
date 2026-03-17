@@ -8,14 +8,16 @@
 
 
 
-
+export function ari_3() {
+    
 
 
 let ab = 17
 
 let res = (ab % 3)
 
-console.log(res)
+ return res
 
+}
 
 

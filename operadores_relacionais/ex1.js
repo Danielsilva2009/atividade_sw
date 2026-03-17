@@ -1,8 +1,10 @@
 // 1- carteita de motorista : se a idade for menor que 18 = reprovado
 
-let idade = 12
+export function rel_1() {
+  let idade = 19
 if(idade >= 18){
-  console.log("pode tirar")
+  return "pode tirar"
 }if(idade <= 18){
- console.log('não pode tirar')
+ return 'não pode tirar'
+}
 }

@@ -2,15 +2,17 @@
 
 
 
-let numero = 5
+export function rel_5() {
+  let numero = 5
 
 
 if(numero > 0){
-  console.log("seu numero é positivo")
+  return "seu numero é positivo"
 }
 if(numero < 0){
-    console.log("seu numero é negativo")
+    return "seu numero é negativo"
   }
   if(numero == 0){
-    console.log("seu numero é 0")
+    return "seu numero é 0"
   }
+}
