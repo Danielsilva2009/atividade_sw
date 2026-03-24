@@ -1,8 +1,8 @@
 //1-Crie um script que receba um número e verifique se ele é positivo, negativo ou zero. 
 
 
-export function if_1() {
-  let numero = -6
+export function if_1(numero) {
+
 
 
 if(numero > 0){

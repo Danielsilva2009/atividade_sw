@@ -11,13 +11,15 @@ import {ari_5} from "../operadores_aritimeticos/ex5.js"
 import {ari_6} from "../operadores_aritimeticos/ex6.js"
 import {ari_7} from "../operadores_aritimeticos/ex7.js"
 
-router_ari.get('/aritimeticos_ex1', (req, res) => {
-    let resp = ari_1()
+router_ari.get('/ari_ex1', (req, res) => {
+  const {a,b} = req.query
+    let resp = ari_1(a,b)
     res.send(`${resp}`)
   })
   
-  router_ari.get('/aritimeticos_ex2', (req, res) => {
-    let resp = ari_2()
+  router_ari.get('/aritimeticos_ex2/:nota_1/:nota_2/:nota_3', (req, res) => {
+    const {nota_1,nota_2,nota_3} = req.params
+    let resp = ari_2(nota_1 , nota_2 , nota_3)
     res.send(`${resp}`)
   })
   

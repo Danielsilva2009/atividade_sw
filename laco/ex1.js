@@ -3,8 +3,8 @@
 
 
 
-export function laco_ex1() {
-    for (let a = 0; a <= 10; a++) {
+export function laco_ex1(a) {
+    for (a = 0; a <= 10; a++) {
       return a
         
     }

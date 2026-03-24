@@ -1,8 +1,8 @@
 // 3- dowhile faca um programa que repita um numero de 1 a 50
-export function laco_ex3() {
+export function laco_ex3(a) {
     
 
-let a = 1
+
 do {
     a++
     return a

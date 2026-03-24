@@ -11,27 +11,31 @@ import express from "express"
 
 
 
-router_laco.get('/laco_ex1', (req, res) => {
-    let resp = laco_ex1()
-    res.send(`o resultado é:${resp}`)
+router_laco.post('/laco_ex1', (req, res) => {
+  const {a} = req.body
+    let resp = laco_ex1(a)
+    res.json(`o resultado é:${resp}`)
   })
 
 
     
-  router_laco.get('/laco_ex2', (req, res) => {
-    let resp = laco_ex2()
+  router_laco.post('/laco_ex2', (req, res) => {
+    const {a} = req.body
+    let resp = laco_ex2(a)
     res.send(`o resultado é:${resp}`)
   })
 
     
-  router_laco.get('/laco_ex3', (req, res) => {
-    let resp = laco_ex3()
-    res.send(`o resultado é:${resp}`)
+  router_laco.post('/laco_ex3', (req, res) => {
+    const {a} = req.body
+    let resp = laco_ex3(a)
+    res.json(`o resultado é:${resp}`)
   })
 
     
-  router_laco.get('/laco_ex4', (req, res) => {
-    let resp = laco_ex4()
+  router_laco.post('/laco_ex4', (req, res) => {
+    const {nomes} = req.body
+    let resp = laco_ex4(nomes)
     res.send(`o resultado é:${resp}`)
   })
 

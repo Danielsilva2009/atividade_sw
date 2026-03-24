@@ -2,7 +2,7 @@
 
 const app = express()
 import express from 'express'
-
+app.use(express.json())
 import { router_case} from "./routers/router_case.js";
 import { router_if } from "./routers/router_if.js";
 import { router_ari } from "./routers/router_ari.js";

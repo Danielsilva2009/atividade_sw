@@ -4,10 +4,8 @@
 // 3 - Conversor de Turno: Receba uma letra ("M", "V" ou "N") e imprima "Bom Dia!", "Boa Tarde!" ou "Boa Noite!". Exiba "Inválido" para outras entradas. 
  
 
-export function if_3() {
+export function if_3(turno) {
   
-
-let turno = 'n'
 
 
 if (turno == 'm') {
