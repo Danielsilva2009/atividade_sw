@@ -2,9 +2,12 @@
 export function laco_ex2(a) {
  
 
-
+let numeros = []
 while (a < 30) {
     a++
-    return a
-}
+    numeros.push(a)
+  
+} 
+
+ return numeros
 }

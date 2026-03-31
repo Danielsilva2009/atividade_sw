@@ -4,8 +4,12 @@
 
 
 export function laco_ex1(a) {
-    for (a = 0; a <= 10; a++) {
-      return a
+  let numeros = []
+    for (a; a <= 10; a++) {
+    
+  
+   numeros.push(a)
         
     }
+    return numeros
 }

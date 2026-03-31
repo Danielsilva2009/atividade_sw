@@ -2,8 +2,8 @@
 
 
 
-export function rel_5() {
-  let numero = 5
+export function rel_5(numero) {
+
 
 
 if(numero > 0){

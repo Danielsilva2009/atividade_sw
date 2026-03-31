@@ -5,8 +5,8 @@
 //  temperatura_fahrenheit que converta o valor 
 // para Fahrenheit usando a fórmula correta. Mostre o resultado da conversão.
 
-export function variaveis_ex2() {
-    let temperatura_celsius = 30
+export function variaveis_ex2(temperatura_celsius) {
+  
 let temperatura_fahrenheit = (temperatura_celsius * 9/5 + 32)
 
 

@@ -5,13 +5,15 @@ import  express  from "express";
 
 const router_vetor = express()
 
-  router_vetor.get('/vetor_ex1', (req, res) => {
-    let resp = vetor_ex1()
+  router_vetor.post('/vetor_ex1', (req, res) => {
+    const {numeros} = req.body
+    let resp = vetor_ex1(numeros)
     res.send(`os numeros são: ${resp}`)
   })
 
-  router_vetor.get('/vetor_ex2', (req, res) => {
-    let resp = vetor_ex2()
+  router_vetor.post('/vetor_ex2', (req, res) => {
+    const {a,b} = req.body
+    let resp = vetor_ex2(a,b)
     res.send(`os numeros são: ${resp}`)
   })
 

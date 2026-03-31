@@ -1,8 +1,8 @@
 // 4 - se a idade do usuario for menor de 18 anos entao nao pode acessar o site
 
 
-export function rel_4() {
-  let idade = 6
+export function rel_4(idade) {
+
 
 
 if(idade >= 18){

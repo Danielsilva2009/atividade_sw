@@ -2,8 +2,8 @@
 
 
 
-export function rel_3() {
-    let nota = 7
+export function rel_3(nota) {
+    
 
 if(nota > 5){
 return "aprovado"

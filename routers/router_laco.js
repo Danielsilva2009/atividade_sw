@@ -34,14 +34,14 @@ router_laco.post('/laco_ex1', (req, res) => {
 
     
   router_laco.post('/laco_ex4', (req, res) => {
-    const {nomes} = req.body
-    let resp = laco_ex4(nomes)
+    const {i} = req.body
+    let resp = laco_ex4(i)
     res.send(`o resultado é:${resp}`)
   })
 
 
     
-  router_laco.get('/laco_ex5', (req, res) => {
+  router_laco.post('/laco_ex5', (req, res) => {
     let resp = laco_ex5()
     res.send(`os nomes são: ${resp}`)
   })

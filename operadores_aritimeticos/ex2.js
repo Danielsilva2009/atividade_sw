@@ -8,9 +8,9 @@ export function ari_2(nota_1,nota_2,nota_3) {
 
 
 
-let media = (nota_1 + nota_2 + nota_3) /3
+let media = (`${nota_1 * nota_2 * nota_3}`) / 3
 
-  return media
+  console.log(media)
 
 }
 

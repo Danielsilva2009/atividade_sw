@@ -3,7 +3,7 @@
 
 
 
-export function laco_ex5() {
+export function laco_ex5(nome) {
   let usuarios = [{
   
     nome:"daniel",

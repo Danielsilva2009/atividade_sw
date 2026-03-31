@@ -23,28 +23,33 @@ router_ari.get('/ari_ex1', (req, res) => {
     res.send(`${resp}`)
   })
   
-  router_ari.get('/aritimeticos_ex3', (req, res) => {
-    let resp = ari_3()
+  router_ari.get('/aritimeticos_ex3/:ab', (req, res) => {
+    const {ab} = req.params
+    let resp = ari_3(ab)
     res.send(`${resp}`)
   })
   
-  router_ari.get('/aritimeticos_ex4', (req, res) => {
-    let resp = ari_4()
+  router_ari.get('/aritimeticos_ex4/:numero', (req, res) => {
+    const {numero} = req.params
+    let resp = ari_4(numero)
     res.send(`${resp}`)
   })
   
-  router_ari.get('/aritimeticos_ex5', (req, res) => {
-    let resp = ari_5()
+  router_ari.get('/aritimeticos_ex5/:graus', (req, res) => {
+    const {graus} = req.params
+    let resp = ari_5(graus)
     res.send(`${resp}`)
   })
   
-  router_ari.get('/aritimeticos_ex6', (req, res) => {
-    let resp = ari_6()
+  router_ari.get('/aritimeticos_ex6/:base/:altura', (req, res) => {
+    const {base , altura} = req.params
+    let resp = ari_6(base , altura)
     res.send(`${resp}`)
   })
   
-  router_ari.get('/aritimeticos_ex7', (req, res) => {
-    let resp = ari_7()
+  router_ari.get('/aritimeticos_ex7/:hora_trabalhada', (req, res) => {
+    const {hora_trabalhada} = req.params
+    let resp = ari_7(hora_trabalhada)
     res.send(`${resp}`)
   })
 

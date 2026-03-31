@@ -5,7 +5,7 @@
 export function laco_ex4(i) {
     let nomes = ["daniel","andré","nicolas","leonardo"]
 
-nomes.forEach( i => {
-    return i
-});
+    return nomes.map(i => {
+        return i; 
+    })
 }

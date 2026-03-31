@@ -1,9 +1,9 @@
 // 1- Dias da Semana 
 //Crie uma variável dia que receba um número de 1 a 7. Use o switch para exibir no console o nome do dia correspondente (ex: 1 = "Domingo", 2 = "Segunda-feira", etc.). Se o número não estiver entre 1 e 7, exiba "Dia inválido" usando o default
- export function  exe_case () {
+ export function  exe_case (dia) {
 
 
-  let dia = 6
+ 
 
 switch (dia)  
 {

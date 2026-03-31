@@ -8,11 +8,11 @@
 
 
 
-export function ari_3() {
+export function ari_3(ab) {
     
 
 
-let ab = 17
+
 
 let res = (ab % 3)
 

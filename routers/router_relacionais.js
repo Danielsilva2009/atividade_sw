@@ -9,39 +9,45 @@
 const router_relacionais = express()
 import express from "express"
 
-router_relacionais.get('/relacionais_ex1', (req, res) => {
-    let resp = rel_1()
+router_relacionais.post('/relacionais_ex1', (req, res) => {
+  const {idade} = req.body
+    let resp = rel_1(idade)
     res.send(`${resp}`)
   })
 
 
-  router_relacionais.get('/relacionais_ex2', (req, res) => {
-    let resp = rel_2()
+  router_relacionais.post('/relacionais_ex2', (req, res) => {
+    const {usuario,senha} = req.body
+    let resp = rel_2(usuario,senha)
     res.send(`${resp}`)
   })
 
 
-  router_relacionais.get('/relacionais_ex3', (req, res) => {
-    let resp = rel_3()
+  router_relacionais.post('/relacionais_ex3', (req, res) => {
+    const {nota} = req.body
+    let resp = rel_3(nota)
     res.send(`${resp}`)
   })
 
 
 
-  router_relacionais.get('/relacionais_ex4', (req, res) => {
-    let resp = rel_5()
+  router_relacionais.post('/relacionais_ex4', (req, res) => {
+    const {idade} = req.body
+    let resp = rel_4(idade)
     res.send(`${resp}`)
   })
 
 
-  router_relacionais.get('/relacionais_ex5', (req, res) => {
-    let resp = rel_5()
+  router_relacionais.post('/relacionais_ex5', (req, res) => {
+    const {numero} = req.body
+    let resp = rel_5(numero)
     res.send(`${resp}`)
   })
 
 
-  router_relacionais.get('/relacionais_ex6', (req, res) => {
-    let resp = rel_6()
+  router_relacionais.post('/relacionais_ex6', (req, res) => {
+    const {valorCompra} = req.body
+    let resp = rel_6(valorCompra)
     res.send(`${resp}`)
   })
 

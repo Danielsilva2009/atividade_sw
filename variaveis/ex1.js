@@ -5,9 +5,8 @@
 // e depois crie uma variável chamada total que represente a multiplicação do produto pela quantidade. 
 // Mostre o valor total da compra.
 
-export function variaveis_ex1() {
-    let produto = 6
-let quantidade = 10
+export function variaveis_ex1(quantidade,produto) {
+ 
 let total = quantidade * produto
 
 return total

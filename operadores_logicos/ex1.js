@@ -4,12 +4,12 @@
 
 
 
-export function logicos_ex1() {
-  let usuario = 'admin'
-let senha = '1234'
+export function logicos_ex1(usuario,senha) {
 
-if(usuario == 'admin' & senha == '1234'){
- return 'sucesso'
+
+if(usuario = 'admin' & senha === '1234'){
+ return "sucesso"
+
 }
 else {
  return 'erro'
