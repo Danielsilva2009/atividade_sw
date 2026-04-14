@@ -11,7 +11,7 @@ export function if_2(idade_nadador) {
 
 
 
-if (idade_nadador < 9) {
+if (idade_nadador <= 9) {
   return `sua idade é : ${idade_nadador} entao voce é mirim`
   
 }
@@ -27,7 +27,7 @@ if (idade_nadador >= 14 & idade_nadador < 17) {
   
 }
 
-if (idade_nadador > 18) {
+if (idade_nadador => 18) {
   return `sua idade é : ${idade_nadador} entao voce é adulto`
   
 }

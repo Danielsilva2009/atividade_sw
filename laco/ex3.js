@@ -6,5 +6,5 @@ export function laco_ex3(a) {
 do {
     a++
     return a
-} while (a < 50);
+} while (a < 10);
 }

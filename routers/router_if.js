@@ -1,7 +1,7 @@
 import {if_1} from "../if_else/ex1.js"
 import {if_2} from "../if_else/ex2.js"
 import {if_3} from "../if_else/ex3.js"
-import {if_4} from "../if_else/ex4.js"
+
 
 
 const router_if = express()
@@ -31,9 +31,6 @@ router_if.post('/if_1', (req, res) => {
     res.send(`${resp}`)
   })
   
-  router_if.get('/if_4', (req, res) => {
-    let resp = if_4()
-    res.send(`${resp}`)
-  })
+
 
   export {router_if}
